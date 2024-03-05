@@ -1,0 +1,44 @@
+### IntelliJ IDEA ###
+../out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+rozprochy2.iml
+bin/
+.idea/
+src/lab_api/task0
+src/lab_api/task1
+src/lab_api/task12
+src/lab_gniazda/zad1
+src/lab_gniazda/zad2
+src/lab_gniazda/zad3
+src/lab_gniazda/praca_domowa/chat
+src/lab_gniazda/JavaTcpClient.java
+src/lab_gniazda/JavaTcpServer.java
+src/lab_gniazda/JavaUdpClient.java
+src/lab_gniazda/JavaUdpServer.java
+src/lab_gniazda/PythonUdpClient.py
+src/lab_gniazda/PythonUdpServer.py
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
