@@ -13,7 +13,6 @@ class Server:
         new_clients_thread.start()
         self.handle_udp()
 
-
     def connect_tcp(self):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             s.bind((self.HOST, self.PORT))
@@ -54,7 +53,6 @@ class Server:
                     for add in self.udp_clients:
                         if add != address[1]:
                             udp_socket.sendto(bytes(msg, 'cp1250'), (self.HOST, add))
-
 
 
 if __name__=="__main__":
