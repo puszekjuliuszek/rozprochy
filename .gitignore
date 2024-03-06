@@ -12,6 +12,7 @@
 .springBeans
 .sts4-cache
 rozprochy2.iml
+out/
 bin/
 .idea/
 src/lab_api/task0
